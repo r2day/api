@@ -28,7 +28,7 @@ jobs:
       name: Build & push Docker image
       with:
         image: r2day/api
-        tags: v1, latest
+        tags: latest
         registry: docker.io
         dockerfile: Dockerfile.ci
         username: ${{ secrets.DOCKER_USERNAME }}
